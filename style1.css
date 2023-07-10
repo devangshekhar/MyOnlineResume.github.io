@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    background: url('back.jpg');
+}
+header{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.talk ul li{
+    margin-left: 10px;
+}
+#linkedn{
+    color: #fff;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 35px;
+    margin: 8px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: 0.3s;
+    width: 20px;
+}
+#linkedn:hover{
+    color: #7d2ae8;
+    background: transparent;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: -40px;
+    max-width: 700px;
+    color: black;
+    height: 100%;
+}
+.content h2{
+    font-size: 2em;
+    color: black;
+    margin: 23px;
+}
+.content h2 span{
+    color: black;
+}
+.content h3{
+    color: black;
+    text-align: center;
+}
+.content .about{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-left: 10px;
+}
+.content .about span{
+    font-weight: bold;
+}
+.content .work{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 12px;
+}
+.work #intro{
+    font-weight: bold;
+}
+.work ul li{
+    margin-left: 10px;
+}
+.work ul li span{
+    font-weight: bold;
+}
+.content .skills{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 8px;
+    margin: 12px;
+}
+.skills ul li{
+    margin-left: 10px;
+}
+.content .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    width: 500px;
+    margin-left: 100px;
+}
+.content .contact{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 8px;
+    margin: 12px;
+}
+.contact h4 span{
+    font-weight: normal;
+}
+.content .talk{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 8px;
+    margin: 12px;
+}
+.content .talk span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-talk{
+    color: #fff;
+    text-decoration: underline;
+    padding: 8px 35px;
+    margin: 10px 300px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+}
+.btn-talk:hover{
+    color: #7d2ae8;
+    background: transparent;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.center{
+    text-align: center;
+}
